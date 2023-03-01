@@ -118,6 +118,6 @@ else if (innerDiv == 'KTM DUKE 125'){
   price.value = 'Rs: 499 for 6 Hour';
 }
 else{
-  price.value = 'Rs: 0 for 6 Hour';
+  price.value = 'Rs: 0 for 0 hour';
 }
 }
