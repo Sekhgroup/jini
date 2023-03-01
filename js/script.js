@@ -85,51 +85,39 @@ const innerDiv = document.querySelector('#slct2').value;
 const price = document.querySelector('#cost');
 
 if (innerDiv == 'Hero Splendor'){
-  price.value = 'Rs: 199 for 6 Hour';
+  price.value = 'Rs: 249 for 6 Hour';
 }
 else if (innerDiv == 'Bajaj CT100'){
-  price.value = 'Rs: 199 for 6 Hour';
+  price.value = 'Rs: 239 for 6 Hour';
 }
 else if (innerDiv == 'TVS Sport'){
-  price.value = 'Rs: 199 for 6 Hour';
+  price.value = 'Rs: 249 for 6 Hour';
 }
 else if (innerDiv == 'Hero Passion'){
-  price.value = 'Rs: 199 for 6 Hour';
+  price.value = 'Rs: 239 for 6 Hour';
 }
 else if (innerDiv == 'Bajaj Platina'){
-  price.value = 'Rs: 199 for 6 Hour';
+  price.value = 'Rs: 239 for 6 Hour';
 }
 else if (innerDiv == 'TVS Star City'){
-  price.value = 'Rs: 199 for 6 Hour';
+  price.value = 'Rs: 239 for 6 Hour';
 }
 else if (innerDiv == 'Yamaha MT 15'){
-  price.value = 'Rs: 229 for 6 Hour';
+  price.value = 'Rs: 399 for 6 Hour';
 }
 else if (innerDiv == 'Yamaha R15'){
-  price.value = 'Rs: 249 for 6 Hour';
+  price.value = 'Rs: 399 for 6 Hour';
 }
 else if (innerDiv == 'TVS Apache RTR 160'){
-  price.value = 'Rs: 229 for 6 Hour';
+  price.value = 'Rs: 349 for 6 Hour';
 }
 else if (innerDiv == 'TVS Apache RTR 180'){
-  price.value = 'Rs: 249 for 6 Hour';
+  price.value = 'Rs: 399 for 6 Hour';
 }
 else if (innerDiv == 'KTM DUKE 125'){
-  price.value = 'Rs: 329 for 6 Hour';
+  price.value = 'Rs: 499 for 6 Hour';
 }
 else{
   price.value = 'Rs: 0 for 6 Hour';
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
