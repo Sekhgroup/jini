@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jini - Bike</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="images/jini2.png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+
+    <div class="overlay" data-overlay></div>
+
+    <div class="header-top">
+      <div class="container">
+
+        <a href="tel: +918617360641" class="helpline-box">
+
+          <div class="icon-box">
+            <ion-icon name="call-outline"></ion-icon>
+          </div>
+
+          <div class="wrapper">
+            <p class="helpline-title">For Further Inquires :</p>
+
+            <p class="helpline-number">+91 8617360641</p>
+          </div>
+
+        </a>
+
+        <a href="#" class="logo">
+          <img src="images/jini1.png" alt="Jini logo">
+        </a>
+
+        <div class="header-btn-group">
+
+          <button class="search-btn" aria-label="Search">
+            <ion-icon name="search"></ion-icon>
+          </button>
+
+          <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="header-bottom">
+      <div class="container">
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://www.facebook.com/profile.php?id=100090680199638&mibextid=ZbWKwL" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://wa.me/+918293077791" class="social-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://youtube.com/@jini-hb7ss" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <nav class="navbar" data-navbar>
+
+          <div class="navbar-top">
+
+            <a href="#" class="logo">
+              <img src="images/jiniblue.png" alt="Jini logo">
+            </a>
+
+            <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </div>
+
+          <ul class="navbar-list">
+
+            <li>
+              <a href="#home" class="navbar-link" data-nav-link>home</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link" data-nav-link>about us</a>
+            </li>
+
+            <li>
+              <a href="#service" class="navbar-link" data-nav-link>service</a>
+            </li>
+
+            <li>
+              <a href="#package" class="navbar-link" data-nav-link>packeges</a>
+            </li>
+
+            <li>
+              <a href="#gallery" class="navbar-link" data-nav-link>gallery</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="navbar-link" data-nav-link>contact us</a>
+            </li>
+
+          </ul>
+
+        </nav>
+
+        <button class="btn btn-primary"><a href="https://sekhgroup.github.io/join/">Add Bike</a></button>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <h2 class="h1 hero-title">freedom ride with Jini.</h2>
+
+          <p class="hero-text">
+            Welcome to Jini! We're thrilled to have you join us for your next motorcycle adventure. Whether you're a seasoned rider or a first-timer, we're here to help you experience the thrill and freedom of the open road.
+          </p>
+
+          <div class="btn-group">
+            <button class="btn btn-primary"><a href="https://sekhgroup.github.io/join/">Add Bike</a></button>
+
+            <button class="btn btn-secondary"><a href="#service" data-nav-link>Book now</a></button>
+            
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+            <!-- 
+        - #TOUR SEARCH
+      -->
+
+      <section class="tour-search" id="service">
+        <div class="container">
+
+          <form action="https://formsubmit.co/sekhgroupco@gmail.com" method="post" class="tour-search-form">
+
+            <div class="input-wrapper">
+              <label for="Name" class="input-label">Your Full Name*</label>
+
+              <input type="text" name="Full Name" id="destination" required placeholder="Your full name"
+                class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="Mobile number" class="input-label">Mobile Number*</label>
+
+              <input type="number" name="Mobile Number" id="Number"  placeholder=" your mobile No." class="input-field" pattern="[1-9]{1}[0-9]{9}" required>
+            </div>
+
+            <div class="input-wrapper">
+              <label for="Occupation" class="input-label">Occupation*</label>
+
+              <input type="text" name="Occupation" id="occupation" required placeholder=" your occupation"
+                class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="Monthly income" class="input-label">Monthly income*</label>
+
+              <input type="number" name="Monthly income" id="income" required placeholder=" your monthly income" class="input-field">
+            </div>
+
+
+
+
+            <div class="input-wrapper">
+              <label for="Cc" class="input-label">Chose cc segment*</label>
+
+              <select class="input-label2" name="cc segment" id="slct1" onclick="f2()" onchange="populate(this.id,'slct2')" onselect="populate(this.id,'slct2')">
+                <option value="chose">Chose Your choise</option>
+                <option value="Basic">Basic</option>
+                <option value="Premium">Premimum</option>
+                <option value="SuperBike">Super Bike</option>                
+              </select>
+            </div>
+
+            <div class="input-wrapper">
+              <label for="bikes" class="input-label">Chose Bike*</label>
+
+              <select class="input-label2" name="bike model" id="slct2" onclick="f2()">
+                <option value = "Chose Bike">Chose Bike</option>    
+              </select>
+            </div>
+
+
+            <div class="input-wrapper">
+              <label for="price" class="input-label">price</label>
+
+              <input type="text" name="price" id="cost"  placeholder=" price" class="input-field" value="" readonly>
+            </div>
+
+            <div class="input-wrapper">
+              <label for="checkin" class="input-label">Rent from**</label>
+
+              <input type="date" name="checkin" id="checkin" required class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="checkout" class="input-label">Rent to*</label>
+
+              <input type="date" name="checkout" id="checkout" required class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">Book now</button>
+
+          </form>
+
+        </div>
+      </section>
+
+    
+        </div>
+      </section>
+
+
+
+
+
+
+      <!-- 
+        - #POPULAR
+      -->
+
+      <section class="popular">
+        <div class="container">
+
+          <p class="section-subtitle">Uncover place</p>
+
+          <h2 class="h2 section-title">Direct rent options</h2>
+
+          <ul class="section-text dcb">
+            <li class="fast-rent">
+              <a href="tel: +918617360641" style="color: #0d43f4 ;">
+              <ion-icon name="call-outline" class="icon"></ion-icon></a>
+              <p>Call for direct bike rent.</p>
+          </li>
+
+            <li class="fast-rent">
+              <a href="https://wa.me/+918293077791" style="color: #25d366 ;">
+              <ion-icon name="logo-whatsapp" class="icon"></ion-icon></a>
+              <p>Message for direct bike rent.</p>
+          </li>
+          </ul>
+                 <!-- <button class="btn btn-primary">More destintion</button> -->
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PACKAGE
+      -->
+
+      <section class="package" id="package">
+        <div class="container">
+
+          <p class="section-subtitle">Popular Packeges</p>
+
+          <h2 class="h2 section-title">Checkout Our Packeges</h2>
+
+          <p class="section-text">
+            Make the Most of Your Time: Check Out Jini's Motorcycle Rental Packages
+          </p>
+
+          <ul class="package-list">
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="images/pack/pack1.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Experience The 24h bike rent service</h3>
+
+                  <p class="card-text">
+                    Get ready to ride with Jini's 24-hour motorcycle rental plan. Whether you're planning a quick city tour or an afternoon getaway, our rental plan provides you with the freedom and flexibility to ride on your own terms.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">1D/6N</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">pax: 2</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">Bongaon</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <div class="wrapper">
+
+                    <p class="reviews">(25 reviews)</p>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                  </div>
+
+                  <p class="price">
+                    RS: 299*
+                    <span>/ Starting</span>
+                  </p>
+
+                  <button class="btn btn-secondary"><a href="tel: +918617360641">Book Now</a></button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="images/pack/pack2.jpg" alt="Summer Holiday To The Oxolotan River" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Travellers plan, get upto 7 days rent</h3>
+
+                  <p class="card-text">
+                    Experience the adventure of a lifetime with Jini's 7-day motorcycle tour plan. Discover the best of Destinations as you ride through scenic routes and explore charming towns and cities.  
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">7D/6N</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">pax: 2</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">Bongaon</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <div class="wrapper">
+
+                    <p class="reviews">(20 reviews)</p>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                  </div>
+
+                  <p class="price">
+                    RS: 1499* 
+                    <span>/ Starting</span>
+                  </p>
+
+                  <button class="btn btn-secondary"><a href="tel: +918617360641">Book Now</a></button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="images/pack/pack3.jpg" alt="Santorini Island's Weekend Vacation" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Full month subscription for bussiness</h3>
+
+                  <p class="card-text">
+                    Take your adventure to the next level with Jini's 1-month motorcycle rental plan. Whether you're planning an extended tour or exploring the city for an extended period.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">1M/6N</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">pax: 2</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">Bongaon</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <div class="wrapper">
+
+                    <p class="reviews">(40 reviews)</p>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                  </div>
+
+                  <p class="price">
+                    RS: 4499*
+                    <span>/ Starting</span>
+                  </p>
+
+                  <button class="btn btn-secondary"><a href="tel: +918617360641">Book Now</a></button>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <button class="btn btn-primary">View All Packages</button>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #GALLERY
+      -->
+
+      <section class="gallery" id="gallery">
+        <div class="container">
+
+          <p class="section-subtitle">Photo Gallery</p>
+
+          <h2 class="h2 section-title">Photo's From Riders</h2>
+
+          <p class="section-text">
+            At Jini, we love to see our customers having the time of their lives on our motorcycles. That's why we encourage riders to share their photos with us from their trips. 
+          </p>
+
+          <ul class="gallery-list">
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="images/gallary/gl4.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="images/gallary/gl5.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="images/gallary/gl2.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="images/gallary/gl1.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="images/gallary/gl3.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta" id="contact">
+        <div class="container">
+
+          <div class="cta-content">
+            <p class="section-subtitle">Call To Action</p>
+
+            <h2 class="h2 section-title">Ready For Unforgatable Ride. Remember Us!</h2>
+
+            <p class="section-text">
+              We believe that every rider deserves to experience the thrill of the open road, and we work hard to provide the best motorcycle rental experience possible. 
+            </p>
+          </div>
+
+          <button class="btn btn-secondary"><a href="tel: +918617360641">Contact Us !</a></button>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="images/jini1.png" alt="Jini logo">
+          </a>
+
+          <p class="footer-text">
+            Thank you for choosing Jini for your motorcycle rental needs. We look forward to being a part of your next adventure and helping you create memories that will last a lifetime!
+          </p>
+
+        </div>
+
+        <div class="footer-contact">
+
+          <h4 class="contact-title">Contact Us</h4>
+
+          <p class="contact-text">
+            Feel free to contact and reach us !!
+          </p>
+
+          <ul>
+
+            <li class="contact-item">
+              <ion-icon name="call-outline"></ion-icon>
+
+              <a href="tel: +918617360641" class="contact-link">+91 8617360641</a>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="mail-outline"></ion-icon>
+
+              <a href="mailto: Sekhgroupco@gmail.com" class="contact-link">Sekhgroupco@gmail.com</a>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="location-outline"></ion-icon>
+
+              <address>743262 Bongaon, Satberia</address>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-form">
+
+          <p class="form-text">
+            Subscribe our newsletter for more update & news !!
+          </p>
+
+          <form action="https://formsubmit.co/8ef3db6da3dcff48558b0a50c35f6b99" method="post"
+          class="form-wrapper">
+            <input type="email" name="email" class="input-field" placeholder="Enter Your Email" required>
+
+            <button type="submit" class="btn btn-secondary">Subscribe</button>
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2023 <a href="mailto: sekhgroupco@gmail.com" style="color: #d3ddff;">Sekhgroup</a>. All rights reserved
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Term & Condition</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">FAQ</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+
+</html>
